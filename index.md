@@ -1,18 +1,27 @@
 ---
 layout: page
-title: Home
+title: home
 permalink: /
 ---
 
+<div class="home-page">
 
 # hi, i'm rishi
 
+<div class="subtitle">
+eecs @ berkeley ('27) — ai engineer @ drive powerline, researcher @ berkeley ai research
+</div>
 
-**eecs @ berkeley (’27)** — ai engineer @ **Drive Powerline**, researcher @ **berkeley ai research (bair)**.
+<div class="contact-links">
+📍 berkeley, ca · [github](https://github.com/rishipython) · [linkedin](https://www.linkedin.com/in/rishi-athavale-aba53a202/) · [google scholar](https://scholar.google.com/citations?hl=en&user=GaFAV4cAAAAJ) · rishi_athavale@berkeley.edu
+</div>
 
+<div class="contact-links">
+résumé: [pdf](/resume.pdf)
+</div>
 
-- 📍 Berkeley, CA · [GitHub](https://github.com/rishipython) · [LinkedIn](https://www.linkedin.com/in/rishi-athavale-aba53a202/) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=GaFAV4cAAAAJ) · <rishi_athavale@berkeley.edu>
-- Résumé: [PDF](/resume.pdf)
+<div class="nav-links">
+[projects](/projects) / [experience](/experience)
+</div>
 
-
-**[Projects & Research](/projects)** / **[Experience](/experience)**.
+</div>

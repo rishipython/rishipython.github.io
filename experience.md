@@ -1,37 +1,41 @@
 ---
 layout: page
-title: Experience
+title: experience
 permalink: /experience
 ---
 
+<div class="page">
 
-### Drive Powerline — *Machine Learning Engineering Intern*
-Berkeley, CA · **May–Aug 2025**
-- Built foundation model for **cross‑region AEMO** predictive signaling & volatility forecasting (demand, solar PV, price elasticity, forward price forecasts).
-- Developed/deployed **price spike** model improving **F1 0.40 → 0.61**, aiding early identification of **$1000+** events.
-- Built an internal optimization suite reducing **AI dev cycle** from **10+ days to < 1 day**.
+## drive powerline — *machine learning engineering intern*
+berkeley, ca · may–aug 2025
 
+- built foundation model for cross‑region aemo predictive signaling & volatility forecasting (demand, solar pv, price elasticity, forward price forecasts)
+- developed/deployed price spike model improving f1 0.40 → 0.61, aiding early identification of $1000+ events
+- built an internal optimization suite reducing ai dev cycle from 10+ days to < 1 day
 
-### Berkeley AI Research — *Machine Learning Researcher*
-Berkeley, CA · **Apr 2025–Present**
-- Web agents to analyze, navigate, and interact with complex sites (Reddit, GitLab, e‑commerce).
-- Quantifying **epistemic UQ** for **INRs** on **tomographic missing‑wedge** problems.
+## berkeley ai research — *machine learning researcher*
+berkeley, ca · apr 2025–present
 
+- web agents to analyze, navigate, and interact with complex sites (reddit, gitlab, e‑commerce)
+- quantifying epistemic uq for inrs on tomographic missing‑wedge problems
 
-### Machine Learning @ Berkeley — *ML Consultant / Lead Student Instructor*
-Berkeley, CA · **Sept 2024–Present**
-- Lectured **40 students** for **CS198‑126 (DL for CV)** as lead student instructor.
-- Leading a high‑school AI competition for **40–60** underrepresented students.
-- PM/lead engineer for **The Guardian** AI image search; **LLM‑generated metadata** + **OpenCLIP** (Hugging Face, Qwen2.5).
+## machine learning @ berkeley — *ml consultant / lead student instructor*
+berkeley, ca · sept 2024–present
 
+- lectured 40 students for cs198‑126 (dl for cv) as lead student instructor
+- leading a high‑school ai competition for 40–60 underrepresented students
+- pm/lead engineer for the guardian ai image search; llm‑generated metadata + openclip (hugging face, qwen2.5)
 
-### HHMI Janelia — *Research Intern (Turaga Lab)*
-Ashburn, VA · **Jun 2023–Aug 2024**
-- ML‑powered 3D snapshot microscopy on **parallel GPUs**; depth‑adaptable phase masks via **JAX/Flax** & meta‑learning.
-- Built demos & **computer‑generated holography** features for **Chromatix** (multi‑GPU).
-- Transformer‑based neural holography; **accuracy 60% → 77%** for optogenetics target patterns.
+## hhmi janelia — *research intern (turaga lab)*
+ashburn, va · jun 2023–aug 2024
 
+- ml‑powered 3d snapshot microscopy on parallel gpus; depth‑adaptable phase masks via jax/flax & meta‑learning
+- built demos & computer‑generated holography features for chromatix (multi‑gpu)
+- transformer‑based neural holography; accuracy 60% → 77% for optogenetics target patterns
 
-### Vytal.ai — *Founding Machine Learning Engineer*
-McLean, VA · **Nov 2021–Jul 2024**
-- Eye‑tracking algorithm with **< 2° error** using **AWS EC2**, **MediaPipe**, **PyTorch** for neuro‑diagnostic biomarkers.
+## vytal.ai — *founding machine learning engineer*
+mclean, va · nov 2021–jul 2024
+
+- eye‑tracking algorithm with < 2° error using aws ec2, mediapipe, pytorch for neuro‑diagnostic biomarkers
+
+</div>

@@ -2,24 +2,310 @@
 # Only the triple-dashed front matter is required so Jekyll processes this file.
 ---
 
+// Dark mode color palette
+$bg-primary: #0a0a0a;
+$bg-secondary: #111111;
+$bg-tertiary: #1a1a1a;
+$text-primary: #e5e5e5;
+$text-secondary: #a3a3a3;
+$text-muted: #737373;
+$accent: #3b82f6;
+$accent-hover: #60a5fa;
+$border: #262626;
 
-// Tweak body width & headings
-$body-background-color: #fafafa;
-$brand-color: #0f172a; // slate-900-like
+// Global styles
+body {
+  background-color: $bg-primary;
+  color: $text-primary;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  text-transform: lowercase;
+}
 
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  color: $text-primary;
+  font-weight: 500;
+  text-transform: lowercase;
+  letter-spacing: -0.02em;
+}
 
+h1 { font-size: 2.5rem; margin-bottom: 1.5rem; }
+h2 { font-size: 2rem; margin-bottom: 1.25rem; }
+h3 { font-size: 1.5rem; margin-bottom: 1rem; }
+
+// Links
+a {
+  color: $accent;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: $accent-hover;
+  }
+}
+
+// Site header
+.site-header {
+  background-color: $bg-secondary;
+  border-bottom: 1px solid $border;
+  padding: 1rem 0;
+}
+
+.site-title {
+  color: $text-primary !important;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: lowercase;
+}
+
+.site-nav {
+  .page-link {
+    color: $text-secondary !important;
+    font-weight: 400;
+    text-transform: lowercase;
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: $text-primary !important;
+    }
+  }
+}
+
+// Main content
 .page-content {
-background: $body-background-color;
+  background: $bg-primary;
+  padding: 3rem 0;
 }
 
-
-.site-title, .page-link {
-font-weight: 700;
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
+// Page styling
+.page {
+  background: $bg-secondary;
+  border-radius: 12px;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid $border;
+}
 
-h1, h2, h3 { color: $brand-color; }
+// Home page specific
+.home-page {
+  text-align: center;
+  
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: $text-primary;
+  }
+  
+  .subtitle {
+    font-size: 1.25rem;
+    color: $text-secondary;
+    margin-bottom: 2rem;
+    font-weight: 400;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    
+    a {
+      color: $text-secondary;
+      font-size: 0.9rem;
+      
+      &:hover {
+        color: $accent;
+      }
+    }
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    
+    a {
+      color: $accent;
+      font-weight: 500;
+      
+      &:hover {
+        color: $accent-hover;
+      }
+    }
+  }
+}
 
+// Experience section
+.experience-item {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid $border;
+  
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  
+  .company {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: $text-primary;
+    margin-bottom: 0.25rem;
+  }
+  
+  .role {
+    color: $accent;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+  
+  .location-date {
+    color: $text-muted;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+    
+    li {
+      position: relative;
+      padding-left: 1.5rem;
+      margin-bottom: 0.75rem;
+      color: $text-secondary;
+      
+      &:before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: $accent;
+      }
+    }
+  }
+}
 
-// Reduce max width a bit for readability
-.wrapper { max-width: 860px; }
+// Style experience and project sections
+.page h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $border;
+  
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.page h3 {
+  color: $accent;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.page p {
+  color: $text-secondary;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.page ul {
+  list-style: none;
+  padding-left: 0;
+  
+  li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: $text-secondary;
+    
+    &:before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: $accent;
+    }
+  }
+}
+
+.page em {
+  color: $text-muted;
+  font-style: normal;
+}
+
+// Projects section
+.project-item {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid $border;
+  
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  
+  .project-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: $text-primary;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-date {
+    color: $text-muted;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project-description {
+    color: $text-secondary;
+    line-height: 1.7;
+  }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 0 1rem;
+  }
+  
+  .page {
+    padding: 1.5rem;
+  }
+  
+  .home-page h1 {
+    font-size: 2.5rem;
+  }
+  
+  .contact-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+// Footer
+.site-footer {
+  background-color: $bg-secondary;
+  border-top: 1px solid $border;
+  padding: 2rem 0;
+  text-align: center;
+  color: $text-muted;
+  font-size: 0.9rem;
+}
