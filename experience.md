@@ -33,7 +33,8 @@ permalink: /experience
     </div>
     <div class="content">
       <div class="title">berkeley ai research — ml researcher</div>
-      <div class="subtitle">web agents · inr uncertainty (missing-wedge)</div>
+      <div class="subtitle">ml researcher</div>
+      <div class="subsubtitle">web agents · inr uncertainty (missing-wedge)</div>
       <details>
         <summary>details</summary>
         <div class="preview">
@@ -52,7 +53,7 @@ permalink: /experience
       <img src="{{ '/assets/img/logos/mlab.png' | relative_url }}" alt="machine learning @ berkeley logo" loading="lazy">
     </div>
     <div class="content">
-      <div class="title">machine learning @ berkeley — consultant / lsi</div>
+      <div class="title">machine learning @ berkeley — consultant</div>
       <div class="subtitle">cs198-126 lecturer · guardian image search</div>
       <details>
         <summary>details</summary>
