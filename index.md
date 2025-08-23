@@ -15,4 +15,4 @@ permalink: /
 - Résumé: [PDF](/resume.pdf)
 
 
-**[Projects](/projects)** / **[Experience](/experience)**.
+**[Projects & Research](/projects)** / **[Experience](/experience)**.
