@@ -21,7 +21,7 @@ header_pages:
 - projects.md
 - experience.md
 - education.md
-- skills.md
+# - skills.md
 
 
 plugins:
