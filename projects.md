@@ -15,7 +15,8 @@ permalink: /projects
       <div class="title">ALLNet</div>
       <div class="subtitle">hybrid cnn for leukemia · 92% acc</div>
       <div class="links">
-        <a href="https://ieeexplore.ieee.org/document/9669840/" target="_blank" rel="noopener">paper</a>
+        <a href="https://ieeexplore.ieee.org/document/9669840/" target="_blank" rel="noopener">ieee publication</a>
+        <a href="https://arxiv.org/pdf/2108.08195" target="_blank" rel="noopener">arxiv paper</a>
         <a href="https://github.com/rishipython/ALL-Cell-Classification" target="_blank" rel="noopener">code</a>
       </div>
       <details>
@@ -36,7 +37,8 @@ permalink: /projects
       <div class="title">identifying Parkinson's from a paient's voice</div>
       <div class="subtitle">audio features · 90% acc</div>
       <div class="links">
-        <a href="https://link.springer.com/chapter/10.1007/978-3-031-18344-7_24" target="_blank" rel="noopener">paper</a>
+        <a href="https://link.springer.com/chapter/10.1007/978-3-031-18344-7_24" target="_blank" rel="noopener">ftc publication</a>
+        <a href="https://docs.google.com/document/d/1Ia2IHN8m70mVJsTZ982atKG6OguuAN87nQkdJM6tRYw/edit?usp=sharing" target="_blank" rel="noopener">paper</a>
       </div>
       <details>
         <summary>read more</summary>
