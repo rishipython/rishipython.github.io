@@ -7,7 +7,7 @@ permalink: /
 <div class="home-page">
 
 <div class="subtitle">
-eecs @ berkeley ('27) — researcher @ bair · ml@b
+eecs @ berkeley · researcher @ bair
 </div>
 
 <div class="about-me">
