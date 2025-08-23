@@ -13,7 +13,7 @@ permalink: /projects
     </div>
     <div class="content">
       <div class="title">ALLNet</div>
-      <div class="subtitle">hybrid cnn for leukemia · 92% acc</div>
+      <div class="subtitle">hybrid cnn for leukemia classification · 92% acc</div>
       <div class="links">
         <a href="https://ieeexplore.ieee.org/document/9669840/" target="_blank" rel="noopener">ieee publication</a>
         <a href="https://arxiv.org/pdf/2108.08195" target="_blank" rel="noopener">arxiv paper</a>
@@ -38,7 +38,7 @@ permalink: /projects
     </div>
     <div class="content">
       <div class="title">identifying Parkinson's from a paient's voice</div>
-      <div class="subtitle">audio features · 90% acc</div>
+      <div class="subtitle">detecting parkinson's from audio features · 90% acc</div>
       <div class="links">
         <a href="https://link.springer.com/chapter/10.1007/978-3-031-18344-7_24" target="_blank" rel="noopener">ftc publication</a>
         <a href="https://docs.google.com/document/d/1Ia2IHN8m70mVJsTZ982atKG6OguuAN87nQkdJM6tRYw/edit?usp=sharing" target="_blank" rel="noopener">paper</a>
@@ -62,7 +62,7 @@ permalink: /projects
     </div>
     <div class="content">
       <div class="title">cnn for tracking eye movements</div>
-      <div class="subtitle">gaze estimation · 1.4–2.3 cm error</div>
+      <div class="subtitle">single-eye gaze estimation · 1.4–2.3 cm error</div>
       <div class="links">
         <a href="https://arxiv.org/pdf/2211.11936" target="_blank" rel="noopener">paper</a>
         <a href="https://github.com/rishipython/One-Eye-is-All-You-Need-Lightweight-Ensembles-for-Gaze-Estimation-with-Single-Encoders" target="_blank" rel="noopener">code</a>
