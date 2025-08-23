@@ -9,23 +9,23 @@ permalink: /
 <div class="home-page">
 
 <div class="subtitle">
-eecs @ berkeley ('27) — researcher @ berkeley ai research
+eecs @ berkeley ('27) — researcher @ bair · ml@b
 </div>
 
 <div class="about-me">
-hi!!! i'm rishi. i grew up in northern virginia (just an hour from dc!) where i graduated from the academies of loudoun ('24). i'm now studying cs, ai, and ml at uc berkeley. i'm interested in computer vision, optics, time series forecasting, and agents.
+hi, i'm rishi. i grew up in northern virginia and now study cs, ai, and ml at uc berkeley. i'm into computer vision, optics, time-series forecasting, and agents.
 </div>
 
 <div class="contact-links">
-📍 berkeley, ca · [github](https://github.com/rishipython) · [linkedin](https://www.linkedin.com/in/rishi-athavale-aba53a202/) · [google scholar](https://scholar.google.com/citations?hl=en&user=GaFAV4cAAAAJ) · rishi_athavale@berkeley.edu
+berkeley, ca · <a href="https://github.com/rishipython">github</a> · <a href="https://www.linkedin.com/in/rishi-athavale-aba53a202/">linkedin</a> · <a href="https://scholar.google.com/citations?hl=en&user=GaFAV4cAAAAJ">google scholar</a> · <a href="mailto:rishi_athavale@berkeley.edu">rishi_athavale@berkeley.edu</a>
 </div>
 
 <div class="contact-links">
-résumé: [pdf](/resume.pdf)
+résumé: <a href="/resume.pdf">pdf</a>
 </div>
 
 <div class="nav-links">
-[projects](/projects) / [experience](/experience)
+<a href="/projects">projects</a> / <a href="/experience">experience</a>
 </div>
 
 </div>
