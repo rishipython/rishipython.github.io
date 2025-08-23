@@ -1,5 +1,6 @@
 ---
 # Only the triple-dashed front matter is required so Jekyll processes this file.
+# Cache busting comment to force refresh
 ---
 
 // Dark mode color palette
@@ -143,6 +144,26 @@ a {
         color: $accent-hover;
       }
     }
+  }
+}
+
+// Force dark mode on all elements - VERSION 2.0
+body, html {
+  background-color: $bg-primary !important;
+  color: $text-primary !important;
+}
+
+// Override any light mode styles
+.site-header, .site-footer, .page-content {
+  background-color: $bg-primary !important;
+}
+
+// Ensure links are visible
+a {
+  color: $accent !important;
+  
+  &:hover {
+    color: $accent-hover !important;
   }
 }
 

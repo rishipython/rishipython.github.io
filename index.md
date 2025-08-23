@@ -4,9 +4,9 @@ title: home
 permalink: /
 ---
 
-<div class="home-page">
+# hi, i'm rishi (dark mode test)
 
-# hi, i'm rishi
+<div class="home-page">
 
 <div class="subtitle">
 eecs @ berkeley ('27) — ai engineer @ drive powerline, researcher @ berkeley ai research
