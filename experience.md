@@ -9,7 +9,7 @@ permalink: /experience
   <!-- Drive Powerline -->
   <article class="card logo">
     <div class="thumb">
-      <img src="{{ '/assets/img/logos/drive_powerline.png' | relative_url }}" alt="drive powerline logo">
+      <img src="{{ '/assets/img/logos/drive_powerline.png' | relative_url }}" alt="drive powerline logo" loading="lazy">
     </div>
     <div class="content">
       <div class="title">drive powerline — ml eng intern</div>
@@ -26,7 +26,7 @@ permalink: /experience
   <!-- BAIR -->
   <article class="card logo">
     <div class="thumb">
-      <img src="{{ '/assets/img/logos/bair.png' | relative_url }}" alt="bair logo">
+      <img src="{{ '/assets/img/logos/bair.png' | relative_url }}" alt="bair logo" loading="lazy">
     </div>
     <div class="content">
       <div class="title">berkeley ai research — ml researcher</div>
@@ -43,7 +43,7 @@ permalink: /experience
   <!-- ML@B -->
   <article class="card logo">
     <div class="thumb">
-      <img src="{{ '/assets/img/logos/mlab.png' | relative_url }}" alt="machine learning @ berkeley logo">
+      <img src="{{ '/assets/img/logos/mlab.png' | relative_url }}" alt="machine learning @ berkeley logo" loading="lazy">
     </div>
     <div class="content">
       <div class="title">machine learning @ berkeley — consultant / lsi</div>
@@ -60,7 +60,7 @@ permalink: /experience
   <!-- HHMI Janelia -->
   <article class="card logo">
     <div class="thumb">
-      <img src="{{ '/assets/img/logos/janelia.png' | relative_url }}" alt="hhmi janelia logo">
+      <img src="{{ '/assets/img/logos/janelia.png' | relative_url }}" alt="hhmi janelia logo" loading="lazy">
     </div>
     <div class="content">
       <div class="title">hhmi janelia (turaga lab) — research intern</div>
@@ -77,7 +77,7 @@ permalink: /experience
   <!-- Vytal.ai -->
   <article class="card logo">
     <div class="thumb">
-      <img src="{{ '/assets/img/logos/vytal.png' | relative_url }}" alt="vytal.ai logo">
+      <img src="{{ '/assets/img/logos/vytal.png' | relative_url }}" alt="vytal.ai logo" loading="lazy">
     </div>
     <div class="content">
       <div class="title">vytal.ai — founding ml engineer</div>
