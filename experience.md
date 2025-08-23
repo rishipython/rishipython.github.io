@@ -13,11 +13,11 @@ permalink: /experience
     </div>
     <div class="content">
       <div class="title">drive powerline — ml eng intern</div>
-      <div class="subtitle">price spikes f1 **0.40 → 0.61** · dev cycle < 1 day</div>
+      <div class="subtitle">used ml to analyze the energy market</div>
       <details>
         <summary>details</summary>
         <div class="more">
-          cross-region aemo predictive signaling & volatility forecasting (demand, solar pv, price elasticity, forward price forecasts). built internal optimization suite to speed iteration.
+          built foundation time-series model for cross-region aemo predictive signaling & voltalility forecasting across diverse factors (demand, solar pv, price elasticity, price) to inform optimal energy trading. improved price spike forecasting from f1 0.40 -> 0.61 to predict critical >$1K events. built internal optimization software suite that reduced ai dev cycle from >10 days to <1 day.
         </div>
       </details>
     </div>
@@ -47,11 +47,11 @@ permalink: /experience
     </div>
     <div class="content">
       <div class="title">machine learning @ berkeley — consultant / lsi</div>
-      <div class="subtitle">taught cs198-126 · guardian image search</div>
+      <div class="subtitle">cs198-126 lecturer · guardian image search</div>
       <details>
         <summary>details</summary>
         <div class="more">
-          lectured ~40 students (dl for cv). led a 40–60 student hs ai competition. pm/lead engineer for guardian image search (openclip + qwen2.5).
+          lectured ~40 students as lead student facilitator for berkeley's deep learning for computer vision course (cs198-126). pm/lead engineer for development of image search engine for the guardian (openclip + qwen2.5).
         </div>
       </details>
     </div>
@@ -64,11 +64,11 @@ permalink: /experience
     </div>
     <div class="content">
       <div class="title">hhmi janelia (turaga lab) — research intern</div>
-      <div class="subtitle">neural holography **60% → 77%** · jax/flax</div>
+      <div class="subtitle">ml for microscopy and holography · chromatix dev</div>
       <details>
         <summary>details</summary>
         <div class="more">
-          ml-powered 3d snapshot microscopy on parallel gpus; depth-adaptable phase masks; demos + chromatix contribs; transformer-based neural holography improvements.
+          developed ml-powered 3d snapshot microscopy algorithm w/ depth-adaptable phase mask for zebrafish brain imaging; demos + chromatix contribs; transformer-based computer generated holography for optogenetics (boosted accuracy from 60% to 77%).
         </div>
       </details>
     </div>
@@ -81,7 +81,7 @@ permalink: /experience
     </div>
     <div class="content">
       <div class="title">vytal.ai — founding ml engineer</div>
-      <div class="subtitle">eye-tracking < 2° error · pytorch + mediapipe</div>
+      <div class="subtitle">eye-tracking < 2° error · pytorch + aws</div>
       <details>
         <summary>details</summary>
         <div class="more">
