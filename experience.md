@@ -4,29 +4,91 @@ title: experience
 permalink: /experience
 ---
 
-### drive powerline — machine learning engineering intern
-berkeley, ca · may–aug 2025
-- cross-region aemo predictive signaling & volatility forecasting (demand, solar pv, price elasticity, forward price forecasts)
-- price-spike model **f1 0.40 → 0.61**, early identification of **$1000+** events
-- internal optimization suite cutting ai dev cycle from **10+ days** to **< 1 day**
+<div class="cards-grid">
 
-### berkeley ai research — machine learning researcher
-berkeley, ca · apr 2025–present
-- web agents to analyze, navigate, and interact with complex sites (reddit, gitlab, e-commerce)
-- epistemic uq for inrs on tomographic missing-wedge problems
+  <!-- Drive Powerline -->
+  <article class="card logo">
+    <div class="thumb">
+      <img src="{{ '/assets/img/logos/drive_powerline.png' | relative_url }}" alt="drive powerline logo">
+    </div>
+    <div class="content">
+      <div class="title">drive powerline — ml eng intern</div>
+      <div class="subtitle">price spikes f1 **0.40 → 0.61** · dev cycle < 1 day</div>
+      <details>
+        <summary>details</summary>
+        <div class="more">
+          cross-region aemo predictive signaling & volatility forecasting (demand, solar pv, price elasticity, forward price forecasts). built internal optimization suite to speed iteration.
+        </div>
+      </details>
+    </div>
+  </article>
 
-### machine learning @ berkeley — ml consultant / lead student instructor
-berkeley, ca · sept 2024–present
-- lectured ~40 students for cs198-126 (dl for cv) as lead student instructor
-- leading a high-school ai competition for 40–60 underrepresented students
-- pm/lead engineer for the guardian ai image search; llm-generated metadata + openclip (hugging face, qwen2.5)
+  <!-- BAIR -->
+  <article class="card logo">
+    <div class="thumb">
+      <img src="{{ '/assets/img/logos/bair.png' | relative_url }}" alt="bair logo">
+    </div>
+    <div class="content">
+      <div class="title">berkeley ai research — ml researcher</div>
+      <div class="subtitle">web agents · inr uncertainty (missing-wedge)</div>
+      <details>
+        <summary>details</summary>
+        <div class="more">
+          built agents to navigate/analyze sites (reddit, gitlab, e-com) with eval harnesses; ongoing work on epistemic uq for inrs in tomography.
+        </div>
+      </details>
+    </div>
+  </article>
 
-### hhmi janelia — research intern (turaga lab)
-ashburn, va · jun 2023–aug 2024
-- ml-powered 3d snapshot microscopy on parallel gpus; depth-adaptable phase masks via jax/flax & meta-learning
-- demos & computer-generated holography features for chromatix (multi-gpu)
-- transformer-based neural holography; accuracy **60% → 77%** for optogenetics target patterns
+  <!-- ML@B -->
+  <article class="card logo">
+    <div class="thumb">
+      <img src="{{ '/assets/img/logos/mlab.png' | relative_url }}" alt="machine learning @ berkeley logo">
+    </div>
+    <div class="content">
+      <div class="title">machine learning @ berkeley — consultant / lsi</div>
+      <div class="subtitle">taught cs198-126 · guardian image search</div>
+      <details>
+        <summary>details</summary>
+        <div class="more">
+          lectured ~40 students (dl for cv). led a 40–60 student hs ai competition. pm/lead engineer for guardian image search (openclip + qwen2.5).
+        </div>
+      </details>
+    </div>
+  </article>
 
-### vytal.ai — founding machine learning engineer
-mclean, va · nov 2021–jul 2024
-- eye-tracking with **< 2° error** using aws ec2, mediapipe, pytorch for neuro-diagnostic biomarkers
+  <!-- HHMI Janelia -->
+  <article class="card logo">
+    <div class="thumb">
+      <img src="{{ '/assets/img/logos/janelia.png' | relative_url }}" alt="hhmi janelia logo">
+    </div>
+    <div class="content">
+      <div class="title">hhmi janelia (turaga lab) — research intern</div>
+      <div class="subtitle">neural holography **60% → 77%** · jax/flax</div>
+      <details>
+        <summary>details</summary>
+        <div class="more">
+          ml-powered 3d snapshot microscopy on parallel gpus; depth-adaptable phase masks; demos + chromatix contribs; transformer-based neural holography improvements.
+        </div>
+      </details>
+    </div>
+  </article>
+
+  <!-- Vytal.ai -->
+  <article class="card logo">
+    <div class="thumb">
+      <img src="{{ '/assets/img/logos/vytal.png' | relative_url }}" alt="vytal.ai logo">
+    </div>
+    <div class="content">
+      <div class="title">vytal.ai — founding ml engineer</div>
+      <div class="subtitle">eye-tracking < 2° error · pytorch + mediapipe</div>
+      <details>
+        <summary>details</summary>
+        <div class="more">
+          built an eye-tracking pipeline on aws ec2 for neuro-diagnostic biomarkers; optimized for reliability and low-latency inference.
+        </div>
+      </details>
+    </div>
+  </article>
+
+</div>
