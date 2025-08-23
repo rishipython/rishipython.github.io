@@ -4,8 +4,6 @@ title: hi :)
 permalink: /
 ---
 
-# hi :)
-
 <div class="home-page">
 
 <div class="subtitle">
