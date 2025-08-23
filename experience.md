@@ -12,8 +12,9 @@ permalink: /experience
       <img src="{{ '/assets/img/logos/drive_powerline.png' | relative_url }}" alt="drive powerline logo" loading="lazy">
     </div>
     <div class="content">
-      <div class="title">drive powerline — ml eng intern</div>
-      <div class="subtitle">used ml to analyze the energy market</div>
+      <div class="title">drive powerline</div>
+      <div class="subtitle">ml eng intern</div>
+      <div class="subsubtitle">used ml to analyze the energy market</div>
       <details>
         <summary>details</summary>
         <div class="preview">
@@ -53,8 +54,9 @@ permalink: /experience
       <img src="{{ '/assets/img/logos/mlab.png' | relative_url }}" alt="machine learning @ berkeley logo" loading="lazy">
     </div>
     <div class="content">
-      <div class="title">machine learning @ berkeley — consultant</div>
-      <div class="subtitle">cs198-126 lecturer · guardian image search</div>
+      <div class="title">machine learning @ berkeley</div>
+      <div class="subtitle">consultant</div>
+      <div class="subsubtitle">cs198-126 lecturer · guardian image search</div>
       <details>
         <summary>details</summary>
         <div class="preview">
@@ -73,8 +75,9 @@ permalink: /experience
       <img src="{{ '/assets/img/logos/janelia.png' | relative_url }}" alt="hhmi janelia logo" loading="lazy">
     </div>
     <div class="content">
-      <div class="title">hhmi janelia (turaga lab) — research intern</div>
-      <div class="subtitle">ml for microscopy and holography · chromatix dev</div>
+      <div class="title">hhmi janelia (turaga lab)</div>
+      <div class="subtitle">research intern</div>
+      <div class="subsubtitle">ml for microscopy and holography · chromatix dev</div>
       <details>
         <summary>details</summary>
         <div class="preview">
@@ -93,8 +96,9 @@ permalink: /experience
       <img src="{{ '/assets/img/logos/vytal.png' | relative_url }}" alt="vytal.ai logo" loading="lazy">
     </div>
     <div class="content">
-      <div class="title">vytal.ai — founding ml engineer</div>
-      <div class="subtitle">eye-tracking < 2° error · pytorch + aws</div>
+      <div class="title">vytal.ai</div>
+      <div class="subtitle">founding ml engineer</div>
+      <div class="subsubtitle">eye-tracking < 2° error · pytorch + aws</div>
       <details>
         <summary>details</summary>
         <div class="preview">
