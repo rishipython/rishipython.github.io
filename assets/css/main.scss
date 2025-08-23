@@ -1,0 +1,61 @@
+---
+---
+
+@import "minima";
+
+/* ===== dark + lowercase overrides (chill vibe) ===== */
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-tertiary: #1a1a1a;
+  --text-primary: #e5e5e5;
+  --text-secondary: #a3a3a3;
+  --text-muted: #737373;
+  --accent: #3b82f6;
+  --accent-hover: #60a5fa;
+  --border: #262626;
+}
+
+/* base */
+html, body { background: var(--bg-primary); color: var(--text-primary); }
+.wrapper { max-width: 800px; }
+
+/* typography */
+body { font-weight: 400; line-height: 1.6; text-transform: lowercase; }
+h1, h2, h3, h4, h5, h6,
+.site-title, .page-link {
+  text-transform: lowercase;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+h1 { font-size: 2.5rem; margin-bottom: 1.5rem; }
+h2 { font-size: 2rem;  margin-bottom: 1.25rem; }
+h3 { font-size: 1.5rem; margin-bottom: 1rem; }
+
+/* links */
+a { color: var(--accent); text-decoration: none; transition: color .2s ease; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+/* layout + chrome */
+.site-header, .site-footer { background: var(--bg-secondary); border-color: var(--border); }
+.site-title, .site-title:visited { color: var(--text-primary); }
+.site-nav .page-link { color: var(--text-secondary); }
+.site-nav .page-link:hover { color: var(--text-primary); }
+
+.page-content { background: var(--bg-primary); padding: 3rem 0; }
+.page {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* home */
+.home-page { text-align: center; }
+.home-page h1 { font-size: 3.5rem; font-weight: 300; margin-bottom: 1rem; }
+.home-page .subtitle   { font-size: 1.25rem; color: var(--text-secondary); margin-bottom: 1.5rem; }
+.home-page .about-me   { color: var(--text-secondary); max-width: 600px; margin: 0 auto 2rem; line-height: 1.7; }
+.home-page .contact-links { display:flex; justify-content:center; gap:1.5rem; flex-wrap:wrap; margin:2rem 0; }
+.home-page .contact-links a { color: var(--text-secondary); }
+.home-page .contact-links a:hover { co
