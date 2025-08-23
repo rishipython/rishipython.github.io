@@ -1,0 +1,25 @@
+---
+# Only the triple-dashed front matter is required so Jekyll processes this file.
+---
+
+
+// Tweak body width & headings
+$body-background-color: #fafafa;
+$brand-color: #0f172a; // slate-900-like
+
+
+.page-content {
+background: $body-background-color;
+}
+
+
+.site-title, .page-link {
+font-weight: 700;
+}
+
+
+h1, h2, h3 { color: $brand-color; }
+
+
+// Reduce max width a bit for readability
+.wrapper { max-width: 860px; }
