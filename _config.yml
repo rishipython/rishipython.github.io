@@ -2,22 +2,14 @@ title: rishi athavale
 description: "eecs @ berkeley, researcher @ bair"
 url: https://rishipython.github.io
 
-# use minima as a remote theme (lets you select the dark skin)
-remote_theme: jekyll/minima
+# stick to the built-in pinned theme FIRST so we know it deploys
+theme: minima
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-feed
 
-minima:
-  skin: dark
-  social_links:
-    - { platform: github,  user_url: "https://github.com/rishipython" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/rishi-athavale-aba53a202/" }
-    # minima doesn't include a google scholar icon; keep that link on the page body
-
-# nav
+# top nav
 header_pages:
   - projects.md
   - experience.md
