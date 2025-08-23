@@ -273,3 +273,43 @@ pre, code { background: #0f0f0f; }
   outline-offset: 2px;
 }
 .card details[open] summary { color: var(--accent-hover); }
+
+/* only one image at a time */
+.card details .preview { display: none; }
+.card:has(details[open]) .thumb { display: none; }
+.card details[open] .preview { display: block; }
+
+/* keep the preview below summary and still bleed to card edges */
+.card details[open] .preview {
+  margin: 10px -16px 12px;   /* was negative top; make it positive */
+  position: relative;
+  z-index: 0;
+}
+.card details[open] .preview img {
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: contain;
+  background: #000;
+  border: 0;
+  border-radius: 0;
+}
+
+/* make summary a block with a bit of spacing and a clean (non-chunky) focus ring */
+.card summary {
+  display: block;
+  padding: 4px 0;
+  margin-top: 8px;
+  cursor: pointer;
+  color: var(--accent);
+  outline: none;                 /* remove default dotted ring */
+  position: relative;
+  z-index: 1;                    /* keep it above anything below */
+}
+.card summary::-webkit-details-marker { display: none; }
+.card details[open] summary { color: var(--accent-hover); }
+/* optional subtle focus style */
+.card summary:focus-visible {
+  outline: 2px dashed var(--accent);
+  outline-offset: 2px;
+}
