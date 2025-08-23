@@ -1,3 +1,41 @@
-title: Rishi Athavale
-description: Portfolio
+title: rishi athavale
+description: "eecs @ berkeley, researcher @ bair"
+url: https://rishipython.github.io
+# If you add a custom domain later, set: url: https://yourdomain.com
+
+
+# Built-in minima theme (supported by GitHub Pages)
 theme: minima
+
+
+# Social links for minima
+minima:
+social_links:
+- { platform: github, user_url: "https://github.com/rishipython" }
+- { platform: linkedin, user_url: "https://www.linkedin.com/in/rishi-athavale-aba53a202/" }
+- { platform: google_scholar, user_url: "https://scholar.google.com/citations?hl=en&user=GaFAV4cAAAAJ" }
+
+
+# Navigation (appears in header)
+header_pages:
+- projects.md
+- experience.md
+- education.md
+- skills.md
+
+
+plugins:
+- jekyll-seo-tag
+- jekyll-feed
+
+
+# SEO tag options
+seo:
+name: "Rishi Athavale"
+type: Person
+
+
+# Build settings
+markdown: kramdown
+kramdown:
+input: GFM
