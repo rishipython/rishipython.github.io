@@ -1,15 +1,19 @@
 ---
 layout: page
-title: home
+title: hi :)
 permalink: /
 ---
 
-# hi, i'm rishi (dark mode test)
+# hi :)
 
 <div class="home-page">
 
 <div class="subtitle">
-eecs @ berkeley ('27) — ai engineer @ drive powerline, researcher @ berkeley ai research
+eecs @ berkeley ('27) — researcher @ berkeley ai research
+</div>
+
+<div class="about-me">
+hi!!! i'm rishi. i grew up in northern virginia (just an hour from dc!) where i graduated from the academies of loudoun ('24). i'm now studying cs, ai, and ml at uc berkeley. i'm interested in computer vision, optics, time series forecasting, and agents.
 </div>
 
 <div class="contact-links">

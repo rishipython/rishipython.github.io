@@ -109,8 +109,19 @@ a {
   .subtitle {
     font-size: 1.25rem;
     color: $text-secondary;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+  }
+  
+  .about-me {
+    font-size: 1.1rem;
+    color: $text-secondary;
     margin-bottom: 2rem;
     font-weight: 400;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .contact-links {
@@ -158,13 +169,85 @@ body, html {
   background-color: $bg-primary !important;
 }
 
-// Ensure links are visible
+// Override minima theme defaults
+body, html, .site, .site-header, .site-footer, .page-content, .wrapper {
+  background-color: $bg-primary !important;
+  color: $text-primary !important;
+}
+
+// Override minima theme text colors
+body, html, p, h1, h2, h3, h4, h5, h6, .site-title, .page-link {
+  color: $text-primary !important;
+}
+
+// Ensure links are visible and functional
 a {
   color: $accent !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
   
   &:hover {
     color: $accent-hover !important;
+    text-decoration: underline !important;
   }
+  
+  &:visited {
+    color: $accent !important;
+  }
+}
+
+// Override minima theme background
+.site-header {
+  background-color: $bg-secondary !important;
+  border-bottom: 1px solid $border !important;
+}
+
+.page-content {
+  background-color: $bg-primary !important;
+}
+
+// Override any remaining light backgrounds (but not links)
+*:not(a) {
+  background-color: inherit !important;
+}
+
+// Specific overrides for minima theme
+.site-header {
+  background-color: $bg-secondary !important;
+}
+
+.site-title, .site-title:visited {
+  color: $text-primary !important;
+}
+
+.page-link, .page-link:visited {
+  color: $text-secondary !important;
+}
+
+.page-link:hover {
+  color: $text-primary !important;
+}
+
+// Override any light backgrounds that might be set by minima
+body, .site, .page-content, .wrapper {
+  background-color: $bg-primary !important;
+}
+
+// Ensure all text is visible
+body, p, div, span, h1, h2, h3, h4, h5, h6 {
+  color: $text-primary !important;
+}
+
+// Remove the test border and ensure links work
+body {
+  border: none !important;
+}
+
+// Make sure links are clickable
+a {
+  pointer-events: auto !important;
+  position: relative !important;
+  z-index: 1 !important;
 }
 
 // Experience section
