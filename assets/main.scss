@@ -84,3 +84,36 @@ pre, code { background: #0f0f0f; }
   .page { padding: 1.5rem; }
   .home-page h1 { font-size: 2.5rem; }
 }
+
+.hero {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.profile img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: #000;
+  display: block;
+}
+
+.profile .name   { font-size: 1.25rem; font-weight: 600; color: var(--text-primary); margin-top: .75rem; }
+.profile .roles  { color: var(--text-secondary); margin-top: .25rem; }
+.profile .links  { margin-top: .75rem; }
+.profile .resume { margin-top: .5rem; }
+
+.about h1 { margin-top: 0; }
+.about p  { color: var(--text-secondary); line-height: 1.7; }
+.quick-links a { font-weight: 500; }
+
+/* responsive stack on mobile */
+@media (max-width: 800px) {
+  .hero { grid-template-columns: 1fr; }
+  .profile { text-align: center; }
+  .profile img { width: 160px; height: 160px; margin: 0 auto; }
+}
