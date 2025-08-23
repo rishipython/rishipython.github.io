@@ -33,7 +33,7 @@ permalink: /experience
       <img src="{{ '/assets/img/logos/bair.png' | relative_url }}" alt="bair logo" loading="lazy">
     </div>
     <div class="content">
-      <div class="title">berkeley ai research — ml researcher</div>
+      <div class="title">berkeley ai research</div>
       <div class="subtitle">ml researcher</div>
       <div class="subsubtitle">web agents · inr uncertainty (missing-wedge)</div>
       <details>
