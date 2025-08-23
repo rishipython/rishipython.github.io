@@ -30,7 +30,7 @@ permalink: /
     <h1>hi, i’m rishi</h1>
     <p>
       i grew up in northern virginia and now study cs, ai, and ml at uc berkeley. i’m into computer vision,
-      optics, time-series forecasting, and agents. i like building useful things and writing down what worked.
+      optics, time-series forecasting, and agents. i like movies/tv, video games, and building cool things.
     </p>
     <p class="quick-links">
       <a href="/projects">projects</a> / <a href="/experience">experience</a>
