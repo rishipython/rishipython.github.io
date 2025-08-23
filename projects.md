@@ -9,7 +9,7 @@ permalink: /projects
   <!-- ALLNet -->
   <article class="card">
     <div class="thumb">
-      <img src="{{ '/assets/img/papers/allnet.jpg' | relative_url }}" alt="allnet paper cover">
+      <img src="{{ '/assets/img/papers/allnet.jpg' | relative_url }}" alt="allnet paper cover" loading="lazy">
     </div>
     <div class="content">
       <div class="title">ALLNet</div>
@@ -31,7 +31,7 @@ permalink: /projects
   <!-- Parkinson’s GB + mRMR -->
   <article class="card">
     <div class="thumb">
-      <img src="{{ '/assets/img/papers/parkinsons.jpg' | relative_url }}" alt="parkinson’s paper cover">
+      <img src="{{ '/assets/img/papers/parkinsons.jpg' | relative_url }}" alt="parkinson’s paper cover" loading="lazy">
     </div>
     <div class="content">
       <div class="title">identifying Parkinson's from a paient's voice</div>
@@ -52,7 +52,7 @@ permalink: /projects
   <!-- One Eye is All You Need -->
   <article class="card">
     <div class="thumb">
-      <img src="{{ '/assets/img/papers/one-eye.jpg' | relative_url }}" alt="one eye is all you need paper cover">
+      <img src="{{ '/assets/img/papers/one-eye.jpg' | relative_url }}" alt="one eye is all you need paper cover" loading="lazy">
     </div>
     <div class="content">
       <div class="title">cnn for tracking eye movements</div>
