@@ -16,7 +16,6 @@
   --border: #262626;
 }
 
-/* base */
 html, body { background: var(--bg-primary); color: var(--text-primary); }
 .wrapper { max-width: 800px; }
 
@@ -36,7 +35,7 @@ h3 { font-size: 1.5rem; margin-bottom: 1rem; }
 a { color: var(--accent); text-decoration: none; transition: color .2s ease; }
 a:hover { color: var(--accent-hover); text-decoration: underline; }
 
-/* layout + chrome */
+/* layout */
 .site-header, .site-footer { background: var(--bg-secondary); border-color: var(--border); }
 .site-title, .site-title:visited { color: var(--text-primary); }
 .site-nav .page-link { color: var(--text-secondary); }
@@ -58,4 +57,30 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 .home-page .about-me   { color: var(--text-secondary); max-width: 600px; margin: 0 auto 2rem; line-height: 1.7; }
 .home-page .contact-links { display:flex; justify-content:center; gap:1.5rem; flex-wrap:wrap; margin:2rem 0; }
 .home-page .contact-links a { color: var(--text-secondary); }
-.home-page .contact-links a:hover { co
+.home-page .contact-links a:hover { color: var(--accent); }
+.home-page .nav-links { display:flex; justify-content:center; gap:2rem; margin-top:2rem; }
+
+/* sections */
+.page h2 {
+  margin-top: 2rem; margin-bottom: 1rem;
+  padding-bottom: .5rem; border-bottom: 1px solid var(--border);
+}
+.page h3 { color: var(--accent); font-weight: 500; margin: 1.5rem 0 .5rem; }
+.page p, .page li { color: var(--text-secondary); line-height: 1.7; }
+
+.experience-item, .project-item {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+}
+.experience-item:last-child, .project-item:last-child { border-bottom: none; margin-bottom: 0; }
+
+/* code blocks */
+pre, code { background: #0f0f0f; }
+
+/* responsive */
+@media (max-width: 768px) {
+  .wrapper { padding: 0 1rem; }
+  .page { padding: 1.5rem; }
+  .home-page h1 { font-size: 2.5rem; }
+}
