@@ -117,3 +117,42 @@ pre, code { background: #0f0f0f; }
   .profile { text-align: center; }
   .profile img { width: 160px; height: 160px; margin: 0 auto; }
 }
+/* make the overall content a bit wider on desktop */
+.wrapper { max-width: 980px; }
+
+/* give the left column more room */
+.hero {
+  grid-template-columns: 360px 1fr; /* was ~240px */
+}
+
+/* scale the photo up a bit so it feels balanced with the wider column */
+.profile img {
+  width: 260px;
+  height: 260px;
+}
+
+/* keep these lines from breaking */
+.profile .roles,
+.profile .links {
+  white-space: nowrap;
+}
+
+/* if your email pushes it too wide, allow it to shrink slightly before wrapping */
+.profile .links a {
+  min-width: 0;
+}
+
+/* extra-wide screens: add a touch more breathing room */
+@media (min-width: 1200px) {
+  .wrapper { max-width: 1080px; }
+  .hero { grid-template-columns: 400px 1fr; }
+  .profile img { width: 280px; height: 280px; }
+}
+
+/* phones: keep the current stacked layout */
+@media (max-width: 800px) {
+  .wrapper { max-width: 100%; }
+  .hero { grid-template-columns: 1fr; }
+  .profile img { width: 160px; height: 160px; }
+  .profile .roles, .profile .links { white-space: normal; } /* allow wrapping on small screens */
+}
