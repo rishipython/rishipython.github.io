@@ -6,6 +6,7 @@ url: https://rishipython.github.io
 theme: minima
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-feed
 
