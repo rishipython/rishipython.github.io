@@ -1,40 +1,29 @@
 title: rishi athavale
 description: "eecs @ berkeley, researcher @ bair"
 url: https://rishipython.github.io
-# If you add a custom domain later, set: url: https://yourdomain.com
 
-
-# Built-in minima theme (supported by GitHub Pages)
-theme: minima
-
-
-# Social links for minima
-minima:
-social_links:
-- { platform: github, user_url: "https://github.com/rishipython" }
-- { platform: linkedin, user_url: "https://www.linkedin.com/in/rishi-athavale-aba53a202/" }
-- { platform: google_scholar, user_url: "https://scholar.google.com/citations?hl=en&user=GaFAV4cAAAAJ" }
-
-
-# Navigation (appears in header)
-header_pages:
-- projects.md
-- experience.md
-# - education.md
-
+# use the latest minima via remote_theme so dark skin works
+remote_theme: jekyll/minima
 
 plugins:
-- jekyll-seo-tag
-- jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-feed
 
+minima:
+  skin: dark
+  social_links:
+    - { platform: github,  user_url: "https://github.com/rishipython" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/rishi-athavale-aba53a202/" }
+    # minima doesn't ship a google scholar icon; keep that link on the page itself
 
-# SEO tag options
-seo:
-name: "Rishi Athavale"
-type: Person
+# header nav
+header_pages:
+  - projects.md
+  - experience.md
+  # - education.md
+  # - skills.md
 
-
-# Build settings
 markdown: kramdown
 kramdown:
-input: GFM
+  input: GFM
