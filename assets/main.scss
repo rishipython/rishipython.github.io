@@ -366,11 +366,11 @@ pre, code { background: #0f0f0f; }
 }
 
 /* ===== blog post ===== */
-.blog-post {
+.post-content {
   color: var(--text-secondary);
   line-height: 1.8;
 }
-.blog-post h2 {
+.post-content h2 {
   color: var(--text-primary);
   font-size: 1.5rem;
   margin-top: 2.5rem;
@@ -378,25 +378,25 @@ pre, code { background: #0f0f0f; }
   padding-bottom: .4rem;
   border-bottom: 1px solid var(--border);
 }
-.blog-post h2:first-child { margin-top: 0; }
+.post-content h2:first-child { margin-top: 0; }
 
-.blog-post p {
+.post-content p {
   color: var(--text-secondary);
   margin-bottom: 1rem;
 }
 
-.blog-post strong { color: var(--text-primary); }
+.post-content strong { color: var(--text-primary); }
 
-.blog-post ol {
+.post-content ol {
   margin: 1rem 0 1.5rem 1.25rem;
   color: var(--text-secondary);
 }
-.blog-post ol li {
+.post-content ol li {
   margin-bottom: .75rem;
   line-height: 1.7;
 }
 
-.blog-post blockquote {
+.post-content blockquote {
   border-left: 3px solid var(--accent);
   background: var(--bg-tertiary);
   margin: 1.5rem 0;
@@ -405,10 +405,10 @@ pre, code { background: #0f0f0f; }
   font-style: normal;
   color: var(--text-secondary);
 }
-.blog-post blockquote p { margin-bottom: 0; }
+.post-content blockquote p { margin-bottom: 0; }
 
-.blog-post a { color: var(--accent); border-bottom: 1px dashed var(--accent); }
-.blog-post a:hover { color: var(--accent-hover); text-decoration: none; }
+.post-content a { color: var(--accent); border-bottom: 1px dashed var(--accent); }
+.post-content a:hover { color: var(--accent-hover); text-decoration: none; }
 
 .blog-figure {
   margin: 1.5rem 0;
