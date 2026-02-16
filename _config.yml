@@ -14,6 +14,7 @@ plugins:
 header_pages:
   - projects.md
   - experience.md
+  - blog.md
   # - education.md
   # - skills.md
 
