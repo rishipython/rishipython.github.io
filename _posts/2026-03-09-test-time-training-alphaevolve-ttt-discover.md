@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "test-time optimization in practice: alphaevolve and ttt-discover"
-date: 2026-02-16
+date: 2026-03-09
 tags: [test-time-training, reinforcement-learning, alphaevolve, ttt-discover]
 ---
 
